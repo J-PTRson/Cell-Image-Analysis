@@ -1,7 +1,7 @@
 // Description:
 // The Fluorescent_Nuclei_Measurements_Macro was designed for use in Fiji (ImageJ) to estimate a measure of GFP+ cells within a given cell population.
 // This is acomplished by analysing the area of DAPI+ nuclei surrounded by cytoplasmic GFP versus the total area of all DAPI+ nuclei within a given ROI.
-// Version 2.0, Last edit: 28-05-2020, Github: https://github.com/J-PTRson/Cell-Image-Analysis/
+// Version 2.01, 22-06-2020
 
 
 //###################
@@ -140,7 +140,7 @@ run("Analyze Particles...", "size=2-Infinity show=Nothing display add"); //Chang
 
 
 selectWindow("Duplicated");
-run("RGB Color");
+run("Stack to RGB");// edit
 selectWindow("Duplicated (RGB)");
 roiManager("Show All without labels");
 
@@ -184,7 +184,7 @@ run("Analyze Particles...", "size=2-Infinity show=Nothing display add");//Change
 
 
 selectWindow("Duplicated");
-run("RGB Color");
+run("Stack to RGB");
 selectWindow("Duplicated (RGB)");
 roiManager("Show All without labels");  //shows all detected nuclei.
 
@@ -205,7 +205,7 @@ rename("cytoGFP+_Nuclei");
 //No-Overlay//
 
 selectWindow("Duplicated");
-run("RGB Color");
+run("Stack to RGB");
 selectWindow("Duplicated (RGB)");
 saveAs("Jpeg", save_path + myTitle + "_No_Overlay.jpg");
 close("Duplicated (RGB)");
