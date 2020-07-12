@@ -7,7 +7,7 @@
 //###################
 //###Configuration###
 //###################
-requires("1.53a"); //version of ImageJ tested on.
+requires("1.52p"); //version of ImageJ tested on.
 
 dapi_channel = NaN; //Define the color channels used for analysis to skip the dialog windows. Integers only.
 gfp_channel = NaN;
