@@ -1,5 +1,5 @@
 // Description:
-// The Fluorescent_Nuclei_Measurements_Macro was designed for use in Fiji (ImageJ) to estimate a measure of GFP+ cells within a given cell population.
+// The Fluorescent_Nucleus_Measurement_Macro was designed for use in Fiji (ImageJ) to estimate a measure of GFP+ cells within a given cell population.
 // This is accomplished by analysing the area of DAPI+ nuclei surrounded by cytoplasmic GFP versus the total area of all DAPI+ nuclei within a given ROI.
 // Version 2.01, 22-06-2020
 
