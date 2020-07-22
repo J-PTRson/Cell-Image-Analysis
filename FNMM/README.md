@@ -7,7 +7,7 @@ green fluorescent protein (GFP+) cells, within a user defined region of interest
 ### Requirements:  
 * Fiji (ImageJ) https://fiji.sc/  
 * FNMM script https://github.com/J-PTRson/Cell-Image-Analysis  
-### Optional requirements for data visualisation:  
+#### Optional requirements for data visualisation:  
 * R, https://www.r-project.org/  
 * Rstudio https://rstudio.com/  
 * FNMM_analysis_helper.R https://github.com/J-PTRson/Cell-Image-Analysis  
